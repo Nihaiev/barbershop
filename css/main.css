@@ -1,0 +1,70 @@
+body {
+  font-family: "Open Sans", Tahoma, sans-serif;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding-left: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.header {
+  background-color: grey;
+}
+.header__link, .header__contact {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+.header__link:hover, .header__contact:hover {
+  color: #FF6C00;
+}
+.header__link:focus, .header__contact:focus {
+  color: #FF6C00;
+}
+.header__btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: 1px solid #FF6C00;
+  border-radius: 25px;
+  background-color: transparent;
+}
+.header__btn:hover {
+  background: var(--focus-color);
+  border: 1px solid #FF6C00;
+  border-radius: 25px;
+}
+
+:root {
+  --focus-color:#FF6C00;
+}/*# sourceMappingURL=main.css.map */
