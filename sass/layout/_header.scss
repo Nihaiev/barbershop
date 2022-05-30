@@ -1,19 +1,20 @@
-.header{
-    background-color: grey;
-    &__link, &__contact{
-        font-weight: 600;
-        font-size: 12px;
-        line-height: 1.33;
-        letter-spacing: 0.1em;
-        color: #FFFFFF;
-        &:hover{
-            color:#FF6C00;
-        }
-        &:focus {
-         color: #FF6C00;
-         }
+.header {
+  background-color: grey;
+  &__link,
+  &__contact {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: var(--header-color);
+    &:hover {
+      color: #ff6c00;
     }
-    &__btn{
+    &:focus {
+      color: #ff6c00;
+    }
+  }
+  &__btn {
     font-family: inherit;
     font-style: normal;
     font-weight: 600;
@@ -21,14 +22,14 @@
     line-height: 1.33;
     letter-spacing: 0.09em;
     text-transform: uppercase;
-    color: #FFFFFF;
-    border: 1px solid #FF6C00;
+    color: var(--header-color);
+    border: 1px solid #ff6c00;
     border-radius: 25px;
     background-color: transparent;
-    &:hover{
-        background: var(--focus-color);
-        border: 1px solid #FF6C00;
-        border-radius: 25px;
+    &:hover {
+      background: var(--focus-color);
+      border: 1px solid #ff6c00;
+      border-radius: 25px;
     }
-    }
+  }
 }
