@@ -30,6 +30,12 @@ button {
   cursor: pointer;
 }
 
+.top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.3636363636;
+}
+
 .about-top__text {
   font-weight: 600;
   font-size: 11px;
