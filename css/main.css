@@ -30,6 +30,13 @@ button {
   cursor: pointer;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 .title {
   font-size: 42px;
   line-height: 1.1666666667;
@@ -105,6 +112,8 @@ button {
 
 .header {
   background-color: grey;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .header__link, .header__contact {
   font-weight: 600;
