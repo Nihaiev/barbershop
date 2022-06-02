@@ -1,18 +1,24 @@
 .reasons {
+  padding-top: 121px;
+  padding-bottom: 130px;
 }
 .reasons__list {
 }
 
 .reasons__item {
+  height: 170px;
+  width: 133px;
+  border: 1px solid #f7f7f7;
 }
 .reasons__item-count {
+  display: block;
   font-weight: 700;
   font-size: 42px;
   line-height: calc(57 / 42);
   //   text-align: center;
   letter-spacing: 0.05em;
-
   color: #303030;
+  margin-bottom: 6px;
 }
 .reasons__item-text {
   font-weight: 600;
@@ -24,9 +30,11 @@
 }
 .reasons__top-text {
   color: #303030;
+  margin-bottom: 20px;
 }
 .reasons__title {
   color: #303030;
+  margin-bottom: 20px;
 }
 .reasons__bottom-text {
   font-size: 18px;
