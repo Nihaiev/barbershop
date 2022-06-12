@@ -2,11 +2,20 @@
   padding-top: 139px;
   padding-bottom: 121px;
 }
+.about .container {
+  display: flex;
+}
 .about__list {
+  display: flex;
+  margin-right: 64px;
 }
 .about__item {
 }
-
+.about__item + .about__item {
+  margin-left: 30px;
+}
+.about__contant {
+}
 .about-top__text {
   font-weight: 600;
   font-size: 11px;

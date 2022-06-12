@@ -1,6 +1,10 @@
 .hero {
 }
+.hero .container {
+  display: flex;
+}
 .hero__list {
+  width: 93px;
 }
 .hero__item {
 }
@@ -50,4 +54,5 @@
 .hero-content {
   padding: 271px 0 199px 99px;
   background: rgba(25, 28, 38, 0.2);
+  flex-grow: 1;
 }

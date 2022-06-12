@@ -6,9 +6,9 @@
   right: 30px;
   z-index: 99;
   font-size: 18px;
-  border: none;
+  border: 1px solid #ff6c00;
   outline: none;
-  background-color: #c7133e;
+  background-color: var(--btn-color);
   cursor: pointer;
   border-radius: 50%;
   width: 50px;
@@ -16,10 +16,10 @@
 }
 .myBtn-text {
   font-family: inherit;
-  color: white;
+  color: #303030;
 }
 
 #myBtn:hover {
-  background-color: #ecebeb;
-  color: #c7133e;
+  background-color: var(--focus-color);
+  color: var(--header-color);
 }

@@ -22,23 +22,23 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <button onclick="topFunction()" id="myBtn" class="myBtn-text" title="Go to top">Top</button>
     <!-- header -->
     <header class="header">
       <div class="container">
-        <a href="#">
+        <a class="header__logo" href="#">
           <img src="./images/logo.svg" alt="logo" />
         </a>
         <nav>
-          <ul class="list">
-            <li><a class="header__link link" href="#">О нас</a></li>
-            <li><a class="header__link link" href="#">Услуги и цены</a></li>
-            <li><a class="header__link link" href="#">Мастера</a></li>
-            <li><a class="header__link link" href="#">Контакты</a></li>
+          <ul class="header__list list">
+            <li class="header__item"><a class="header__link link" href="#">О нас</a></li>
+            <li class="header__item"><a class="header__link link" href="#">Услуги и цены</a></li>
+            <li class="header__item"><a class="header__link link" href="#">Мастера</a></li>
+            <li class="header__item"><a class="header__link link" href="#">Контакты</a></li>
           </ul>
         </nav>
-        <div>
+        <div class="header__connect">
           <a class="header__contact link" href="tel:+380441111111">+38 044 111 11 11</a>
+          <button type="button" class="header__btn">онлайн-запись</button>
         </div>
       </div>
     </header>
@@ -71,15 +71,19 @@
             <li class="about__item"><img class="about__img" src="./images/about_img1.jpg" alt="Бритье" /></li>
             <li class="about__item"><img class="about__img" src="./images/about_img2.jpg" alt="Стижка" /></li>
           </ul>
-          <p class="about-top__text">О НАС</p>
-          <h2 class="about__title title">Лучший Барбершоп твоего города</h2>
-          <p class="about-bottom__text">Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</p>
-          <p class="about__text">
-            Мы команда, которая никогда не останавливается на достигнутом и жаждет перемен. И когда ты попадешь в руки
-            нашего мастера, то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной
-            волне". Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!
-          </p>
-          <button type="button" class="about__btn about__btn-text">онлайн-запись</button>
+          <div class="about__contant">
+            <p class="about-top__text">О НАС</p>
+            <h2 class="about__title title">Лучший Барбершоп твоего города</h2>
+            <p class="about-bottom__text">
+              Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.
+            </p>
+            <p class="about__text">
+              Мы команда, которая никогда не останавливается на достигнутом и жаждет перемен. И когда ты попадешь в руки
+              нашего мастера, то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной
+              волне". Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!
+            </p>
+            <button type="button" class="about__btn about__btn-text">онлайн-запись</button>
+          </div>
         </div>
       </section>
       <!-- price section -->
@@ -187,10 +191,30 @@
           <p class="gallery__top-text top-text">На латинском языке “барба” означает “борода”</p>
           <h2 class="visually-hidden">Галерея</h2>
           <ul class="gallery__list list">
-            <li class="gallery__item"><img src="./images/rectangle4.jpg" alt="барбер" width="270" height="360" /></li>
-            <li class="gallery__item"><img src="./images/rectangle3.jpg" alt="барбер" width="270" height="360" /></li>
-            <li class="gallery__item"><img src="./images/rectangle2.jpg" alt="барбер" width="270" height="360" /></li>
-            <li class="gallery__item"><img src="./images/rectangle1.jpg" alt="барбер" width="270" height="360" /></li>
+            <li class="gallery__item">
+              <img class="gallary__img" src="./images/rectangle4.jpg" alt="барбер" width="270" height="360" />
+            </li>
+            <li class="gallery__item">
+              <img class="gallary__img" src="./images/rectangle3.jpg" alt="барбер" width="270" height="360" />
+            </li>
+            <li class="gallery__item">
+              <img class="gallary__img" src="./images/rectangle2.jpg" alt="барбер" width="270" height="360" />
+            </li>
+            <li class="gallery__item">
+              <img class="gallary__img" src="./images/rectangle1.jpg" alt="барбер" width="270" height="360" />
+            </li>
+            <li class="gallery__item">
+              <img class="gallary__img" src="./images/rectangle4.jpg" alt="барбер" width="270" height="360" />
+            </li>
+            <li class="gallery__item">
+              <img class="gallary__img" src="./images/rectangle3.jpg" alt="барбер" width="270" height="360" />
+            </li>
+            <li class="gallery__item">
+              <img class="gallary__img" src="./images/rectangle2.jpg" alt="барбер" width="270" height="360" />
+            </li>
+            <li class="gallery__item">
+              <img class="gallary__img" src="./images/rectangle1.jpg" alt="барбер" width="270" height="360" />
+            </li>
           </ul>
         </div>
       </section>
